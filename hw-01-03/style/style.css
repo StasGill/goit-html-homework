@@ -11,11 +11,14 @@ ul.site-navigation li {
   text-align: center;
   font-size: 14px;
   line-height: 24px;
-  margin:55px;
+  
 }
+.site-navigation li:not(:last-child){
+  margin-right: 60px;}
 
 main {
   width: 901px;
+  
   
     padding-right: -85px;
   margin:auto;
@@ -49,6 +52,7 @@ ul.site-navigation li {
   margin-bottom: 0px;
 }
 .site-navigation a {
+  display: inline-block;
   color: #626262;
   text-decoration: none;
 }
@@ -56,14 +60,14 @@ ul.site-navigation li {
 .site-navigation a:focus{
   color:#03a9f4;
 }
-section {
+article {
   width: 421px;
   display: inline-block;
   padding-bottom: 116px;
   
   
   }
-  section:nth-of-type(2n) {
+  article:nth-of-type(2n) {
 
     padding-left: 55px;
   }
