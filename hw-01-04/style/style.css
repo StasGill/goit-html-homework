@@ -102,10 +102,7 @@ main {
 .featureditem li:nth-child(n+5) {
   margin-bottom: 107px;
   }
-img {
-  padding: 0px;
-  margin: 0px;
-}
+
 .nameitem {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
