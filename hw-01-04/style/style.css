@@ -106,9 +106,9 @@ main {
 .featureditem li:nth-of-type(4n) {
   margin-right: 0px;
 }
-.featureditem li:nth-child(n+5) {
+/*.featureditem li:nth-child(n+5) {
   margin-bottom: 107px;
-  }
+  }*/
 
 .nameitem {
   font-family: 'Roboto', sans-serif;
