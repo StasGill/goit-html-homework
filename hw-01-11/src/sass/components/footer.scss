@@ -1,0 +1,66 @@
+footer {
+  border-top: solid 2px;
+  border-color: #e7e7e7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 1200px;
+  height: 62px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer input {
+  font-family: "Roboto", sans-serif;
+  font-weight: light;
+  width: 228px;
+  height: 40px;
+  margin: 0;
+  color: #cccccc;
+  font-size: 15px;
+  font-style: italic;
+  padding-left: 12px;
+
+}
+
+button {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-style: none;
+  border: 0px solid #626262;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 5px;
+  width: 152px;
+  height: 40px;
+  background-color: #95e1d3;
+  cursor: pointer;
+  border: 0;
+  margin: 0;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.Laa {
+  color: #f38181;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(-o-min-device-pixel-ratio: 2/1),
+(min-resolution: 192dpi) {
+  .page-header {
+    background: url(../img/bg_x2.jpg) no-repeat center;
+  }
+}

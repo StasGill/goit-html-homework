@@ -1,0 +1,15 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+@import './helpers/fonts.scss';
+
+@import './helpers/variables.scss';
+@import './helpers/base.scss';
+
+// SECTIONS
+@import './components/header.scss';
+@import './components/services.scss';
+@import './components/team.scss';
+@import './components/footer.scss';
+

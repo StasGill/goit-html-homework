@@ -1,0 +1,127 @@
+h3 {
+  font-family: $main_fonttwo;
+  font-size: 24px;
+  font-weight: 400;
+  width: 1200px;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+
+h4 {
+  margin: 0px;
+  font-family: $main_font;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+h5 {
+  font-family: $main_font;
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h2.service__tittleh2 {
+  font-family: $main_font;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto 66px auto;
+}
+
+h2.service__tittleh2::after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 60px;
+  background-color: $main_colortwo;
+  margin: 40px auto 0 auto;
+}
+
+.service {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.service__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+
+.service__items li {
+  position: relative;
+  width: 383px;
+  min-height: 68px;
+  margin-bottom: 100px;
+  display: block;
+  padding-left: 82px;
+  font-family: $main_font;
+}
+
+.service__items li:nth-child(n + 4) {
+  margin-bottom: 0px;
+}
+
+.alarm::before {
+  position: absolute;
+  left: 20px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/alarm.png);
+}
+
+.linegraph::before {
+  position: absolute;
+  left: 20px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/linegraph.png);
+}
+
+.computerok::before {
+  position: absolute;
+  left: 20px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/alarm.png);
+}
+
+.book::before {
+  position: absolute;
+  left: 20px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/BOOK.png);
+}
+
+.home::before {
+  position: absolute;
+  left: 20px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/HOME.png);
+}
+
+.digital::before {
+  position: absolute;
+  left: 20px;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/IMAGE.png);
+}
